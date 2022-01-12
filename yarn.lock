@@ -3007,13 +3007,6 @@
     lodash.merge "^4.6.2"
     lodash.uniq "^4.5.0"
 
-"@textlint-rule/textlint-rule-google-capitalization@0.1.2":
-  version "0.1.2"
-  resolved "https://registry.npmjs.org/@textlint-rule/textlint-rule-google-capitalization/-/textlint-rule-google-capitalization-0.1.2.tgz#4bf0af7e7d5828695a42c29b6364f009a142fb8b"
-  integrity sha512-y6Gj+7Vh5eKJ/a0u9BbH7Q43DJYqne75AA0J6vfHt41k449Y3yasAkib4Lfqji786WRvbVmNt7wjZ+v6k+MQEQ==
-  dependencies:
-    textlint-rule-en-capitalization "^2.0.1"
-
 "@textlint/ast-node-types@^12.1.0":
   version "12.1.0"
   resolved "https://registry.npmjs.org/@textlint/ast-node-types/-/ast-node-types-12.1.0.tgz#e8b2a39bb2dd36d83c4342a5b5ed0d84217cf54a"
@@ -16444,7 +16437,7 @@ strip-indent@^3.0.0:
   dependencies:
     min-indent "^1.0.0"
 
-strip-json-comments@^3.1.0, strip-json-comments@^3.1.1:
+strip-json-comments@^3.0.1, strip-json-comments@^3.1.0, strip-json-comments@^3.1.1:
   version "3.1.1"
   resolved "https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-3.1.1.tgz#31f1281b3832630434831c310c01cccda8cbe006"
   integrity sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==
@@ -16848,7 +16841,7 @@ textlint-rule-common-misspellings@1.0.1:
     misspellings "^1.0.1"
     textlint-rule-helper "^1.1.5"
 
-textlint-rule-en-capitalization@2.0.3, textlint-rule-en-capitalization@^2.0.1:
+textlint-rule-en-capitalization@2.0.3:
   version "2.0.3"
   resolved "https://registry.npmjs.org/textlint-rule-en-capitalization/-/textlint-rule-en-capitalization-2.0.3.tgz#6b05e5adcc58caed87abfe6fefea88e20c89d7e5"
   integrity sha512-tIx2gzm3okWfK5+0NNV1ap21LHk9PTc2/IXNqFhd7RDVSqv7YFaZnhwL+UrBZXTEfOh6VgnTQd81Os2Akzas5g==
@@ -16864,20 +16857,13 @@ textlint-rule-helper@^1.1.5:
   dependencies:
     unist-util-visit "^1.1.0"
 
-textlint-rule-helper@^2.0.0, textlint-rule-helper@^2.1.1:
+textlint-rule-helper@^2.1.1:
   version "2.2.1"
   resolved "https://registry.npmjs.org/textlint-rule-helper/-/textlint-rule-helper-2.2.1.tgz#fe223d4a6c492b9aaf6e8a33fca5ad8a02e4e027"
   integrity sha512-pdX3uNbFzQTgINamaBpEHRT/MgROHev5wCnQnUTXRLT5DaRjls0Rmpi5d1MPZG6HT5NKVL++Q2J0FUbh5shi3Q==
   dependencies:
     structured-source "^3.0.2"
     unist-util-visit "^2.0.3"
-
-textlint-rule-no-todo@2.0.1:
-  version "2.0.1"
-  resolved "https://registry.npmjs.org/textlint-rule-no-todo/-/textlint-rule-no-todo-2.0.1.tgz#86351ed3521ce8faa3b8224f88887f3cecbf2920"
-  integrity sha512-+adoWaBgoTN2g0WNcrERhVq7gdPKQIf1z7Ol+6XwMGv8XmuoFp5vJljHKtCmJBmGhBihjty2b8oaza2MY6UNlw==
-  dependencies:
-    textlint-rule-helper "^2.0.0"
 
 textlint-rule-stop-words@2.0.9:
   version "2.0.9"
@@ -16886,6 +16872,15 @@ textlint-rule-stop-words@2.0.9:
   dependencies:
     lodash "^4.17.15"
     split-lines "^2.0.0"
+    textlint-rule-helper "^2.1.1"
+
+textlint-rule-terminology@2.1.5:
+  version "2.1.5"
+  resolved "https://registry.npmjs.org/textlint-rule-terminology/-/textlint-rule-terminology-2.1.5.tgz#21aaed9409e031f71fd450d024b6de9590be2489"
+  integrity sha512-VW+ea4ByLPddSUqoFkVVJF8zWnO8kqKwvC681wGFAjI4CYz9WhjEQH1ikhoEHXnd5AFXNArcjyoa8hoihrXy0w==
+  dependencies:
+    lodash "^4.17.15"
+    strip-json-comments "^3.0.1"
     textlint-rule-helper "^2.1.1"
 
 textlint@12.1.0:

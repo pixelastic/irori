@@ -33,6 +33,8 @@ Its output format is compatible with TextLint default format.
 No more **available**, **reliability**, **across** or **relevant**. It
 automatically fixes the [most common misspellings][2].
 
+
+
 - Proper tech name capitalization
 - Don't use "eg.", use "for example"
 - American / British english
@@ -42,6 +44,8 @@ automatically fixes the [most common misspellings][2].
 - "to be able to "
 - "simply", "only", "obviously"
 - Valid Markdown
+- Warn about leftover TOOD: https://github.com/textlint-rule/textlint-rule-no-todo
+- Should we have a period at the end of list items?
 
 ### Other plugins?
 
@@ -51,6 +55,13 @@ automatically fixes the [most common misspellings][2].
 - https://github.com/sapegin/textlint-rule-diacritics
 - https://github.com/sapegin/textlint-rule-stop-words
 - https://github.com/sapegin/textlint-rule-terminology
+textlint-rule-terminology
+textlint-rule-max-comma
+textlint-rule-no-start-duplicated-conjunction
+textlint-rule-period-in-list-item
+textlint-rule-en-max-word-count
+textlint-rule-diacritics
+textlint-rule-spellchecker
 
 
 ## Why this name?
