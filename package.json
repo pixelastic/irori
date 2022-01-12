@@ -1,20 +1,22 @@
 {
-  "private": true,
-  "name": "irori-monorepo",
   "description": "irori monorepo",
-  "homepage": "https://projects.pixelastic.com/irori/",
-  "keywords": [],
-  "workspaces": [
-    "lib",
-    "docs"
-  ],
-  "files": [],
   "devDependencies": {
     "aberlaas": "1.25.0",
     "lerna": "4.0.0"
   },
+  "engines": {
+    "node": ">=14.17.0"
+  },
+  "files": [
+    "lib/*.js"
+  ],
+  "homepage": "https://projects.pixelastic.com/irori/",
+  "keywords": [],
+  "license": "MIT",
+  "main": "lib/main.js",
+  "name": "irori-monorepo",
+  "private": true,
   "scripts": {
-    "sandbox": "node ./scripts/sandbox.js",
     "build": "./scripts/docs/build",
     "build:prod": "./scripts/docs/build-prod",
     "ci": "./scripts/ci",
@@ -23,8 +25,14 @@
     "lint": "./scripts/lint",
     "lint:fix": "./scripts/lint-fix",
     "release": "./scripts/release",
+    "sandbox": "node ./scripts/sandbox.js",
     "serve": "./scripts/docs/serve",
     "test": "./scripts/lib/test",
     "test:watch": "./scripts/lib/test-watch"
-  }
+  },
+  "version": "0.0.1",
+  "workspaces": [
+    "lib",
+    "docs"
+  ]
 }
