@@ -1,6 +1,6 @@
 const irori = require('../lib/');
 
 (async () => {
-  console.info(irori);
-  console.info("ok");
+  const fixedText = await irori.fix('This is usefull accross the baord');
+  console.info(fixedText);
 })();
