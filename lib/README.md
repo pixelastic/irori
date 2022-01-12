@@ -37,6 +37,7 @@ No more **available**, **reliability**, **across** or **relevant**. It
 automatically fixes the [most common misspellings][2].
 
 - Proper tech name capitalization
+- Don't use "eg.", use "for example"
 - American / British english
 - Don't -> do not
 - Guys and binary words
@@ -44,6 +45,16 @@ automatically fixes the [most common misspellings][2].
 - "to be able to "
 - "simply", "only", "obviously"
 - Valid Markdown
+
+### Other plugins?
+
+- https://github.com/0x6b/textlint-rule-normalize-whitespaces
+- https://freesoft.dev/program/102938433
+- https://github.com/sapegin/textlint-rule-apostrophe
+- https://github.com/sapegin/textlint-rule-diacritics
+- https://github.com/sapegin/textlint-rule-stop-words
+- https://github.com/sapegin/textlint-rule-terminology
+
 
 ## Why this name?
 
