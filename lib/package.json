@@ -6,7 +6,9 @@
   "author": "Tim Carry (@pixelastic)",
   "license": "MIT",
   "main": "main.js",
-  "files": ["*.js"],
+  "files": [
+    "*.js"
+  ],
   "engines": {
     "node": ">=14.17.0"
   },
@@ -19,5 +21,9 @@
     "serve": "../scripts/docs/serve",
     "test": "../scripts/lib/test",
     "test:watch": "../scripts/lib/test-watch"
+  },
+  "dependencies": {
+    "textlint": "12.1.0",
+    "textlint-rule-common-misspellings": "1.0.1"
   }
 }
