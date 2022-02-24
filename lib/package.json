@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "firost": "2.17.0",
-    "textlint": "12.1.0",
+    "textlint": "12.1.1",
     "textlint-rule-common-misspellings": "1.0.1",
     "textlint-rule-en-capitalization": "2.0.3",
     "textlint-rule-stop-words": "2.0.9",
