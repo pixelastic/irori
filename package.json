@@ -2,7 +2,7 @@
   "description": "irori monorepo",
   "devDependencies": {
     "aberlaas": "1.25.1",
-    "lerna": "4.0.0"
+    "lerna": "7.3.0"
   },
   "engines": {
     "node": ">=14.17.0"
