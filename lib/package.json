@@ -7,10 +7,16 @@
   "license": "MIT",
   "main": "main.js",
   "files": [
-    "*.js"
+    "bin/",
+    "lib/",
+    "*.js",
+    "lib/commands/fix/*.js"
   ],
+  "bin": {
+    "irori": "bin/irori"
+  },
   "engines": {
-    "node": ">=14.17.0"
+    "node": ">=16"
   },
   "scripts": {
     "build": "../scripts/docs/build",
@@ -24,10 +30,15 @@
   },
   "dependencies": {
     "firost": "2.17.0",
-    "textlint": "12.1.1",
+    "golgoth": "2.1.0",
+    "minimist": "1.2.8",
+    "textlint": "13.3.3",
+    "textlint-rule-alex": "3.0.0",
     "textlint-rule-common-misspellings": "1.0.1",
+    "textlint-rule-editorconfig": "1.0.3",
     "textlint-rule-en-capitalization": "2.0.3",
     "textlint-rule-stop-words": "2.0.9",
-    "textlint-rule-terminology": "2.1.5"
+    "textlint-rule-terminology": "2.1.5",
+    "textlint-rule-write-good": "2.0.0"
   }
 }

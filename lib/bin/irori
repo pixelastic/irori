@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+const irori = require('../main.js');
+(async () => {
+  await irori.run(process.argv.slice(2));
+})();
