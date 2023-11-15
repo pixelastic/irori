@@ -9,8 +9,8 @@
   "files": [
     "bin/",
     "*.js",
-    "commands/fix/*.js",
-    "commands/lint/*.js"
+    "configs/*.js",
+    "commands/*.js"
   ],
   "bin": {
     "irori": "bin/irori"
