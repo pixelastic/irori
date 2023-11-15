@@ -1,5 +1,17 @@
 #!/usr/bin/env node
-const irori = require('../main.js');
+const iroriBin = require('../bin.js');
+/**
+ * Run irori as a binary
+ * Usage (lint):
+ * $ irori lint "Text to lint"        # Output JSON of errors
+ * $ irori lint ./file/to/lint.md     # Output JSON of errors
+ * $ echo "Text to lint" | irori lint # Output JSON of errors
+ *
+ * Usage (fix):
+ * $ irori fix "Text to fix"        # Output fixed version of text
+ * $ irori fix ./file/to/fix.md     # Output fixed version of text
+ * $ echo "Text to fix" | irori fix # Output fixed version of text
+ **/
 (async () => {
-  await irori.run(process.argv.slice(2));
+  await iroriBin.run(process.argv.slice(2));
 })();
