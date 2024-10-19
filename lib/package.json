@@ -29,7 +29,7 @@
     "test:watch": "../scripts/lib/test-watch"
   },
   "dependencies": {
-    "firost": "2.17.0",
+    "firost": "4.3.0",
     "golgoth": "2.1.0",
     "minimist": "1.2.8",
     "textlint": "13.3.3",
