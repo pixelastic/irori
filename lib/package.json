@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "firost": "2.17.0",
-    "golgoth": "2.1.0",
+    "golgoth": "2.4.0",
     "minimist": "1.2.8",
     "textlint": "13.3.3",
     "textlint-rule-alex": "3.0.0",
